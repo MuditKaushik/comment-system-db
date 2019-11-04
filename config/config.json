@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "<db-username>",
+    "password": "<db-password>",
+    "database": "<db-name>",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "<db-username>",
+    "password": "<db-password>",
+    "database": "<db-name>",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "<db-username>",
+    "password": "<db-password>",
+    "database": "<db-name>",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "operatorsAliases": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "comment-system-db",
+  "version": "1.0.0",
+  "description": "create schema for comment system in mssql(microsoft sql server).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-db": "npx sequelize-cli db:create",
+    "create-table": "npx sequelize-cli db:migrate",
+    "seed-data": "npx sequelize-cli db:seed:all",
+    "undo-seeding": "npx sequelize-cli db:seed:undo:all",
+    "drop-table": "npx sequelize-cli db:migrate:undo"
+  },
+  "author": "Mudit Kaushik",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.3",
+    "@types/sequelize": "^4.28.6",
+    "@types/tedious": "^4.0.0",
+    "@types/uuid": "^3.4.6",
+    "sequelize-cli": "^5.5.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "sequelize": "^5.21.2",
+    "tedious": "^6.6.0",
+    "uuid": "^3.3.3"
+  }
+}
